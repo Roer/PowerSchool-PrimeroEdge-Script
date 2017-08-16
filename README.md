@@ -3,6 +3,8 @@ Script to modify PowerSchool exports into a format easily imported into PrimeroE
 
 We use the student ID provided by the state as our "local ID" so it is exported twice. If using this script, you will have to determine your own systems Ethnicity, Race, and Guardian fields.
 
+Exports are tab delimited.
+
 
 ## PowerSchool exported fields
 - State_StudentNumber
