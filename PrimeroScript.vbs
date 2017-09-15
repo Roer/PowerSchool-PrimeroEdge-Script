@@ -80,7 +80,7 @@ Set objFile = objFSO.OpenTextFile("student.txt", ForReading)
 Do Until objFile.AtEndOfStream
     strLineSeven = objFile.ReadLine
     If InStr(strLineSeven, Chr(9) & "8" & Chr(9)) > 0 Then
-		strLineSeven = Replace(strLineSeven, Chr(9) & "1414" & Chr(9), Chr(9) & "6484" & Chr(9))
+		strLineSeven = Replace(strLineSeven, Chr(9) & "####" & Chr(9), Chr(9) & "####" & Chr(9))
 	End If
 	strNewContentsSeven = strNewContentsSeven & strLineSeven & vbCrLf
 Loop
